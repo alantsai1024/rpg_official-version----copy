@@ -1,0 +1,38 @@
+{
+    "name": "RPG_Official Version (請切換英文開啟) - Copy",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "sprite-scaling": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.15.17",
+        "tag": "v0.15.17",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/1f3914fbbaf5b5d37356e3973b7845374d264298",
+        "target": "1.12.26",
+        "pxt": "5.30.43",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
